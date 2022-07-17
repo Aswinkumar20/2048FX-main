@@ -1,0 +1,109 @@
+#main-pane {
+    -fx-background-color: #bf3a30;
+}
+
+.grid-pane {
+    -fx-border-width: 0px;
+    -fx-vgap: 4px;
+    -fx-hgap: 4px;
+    -fx-fill: true;
+    -fx-border-radius: 0;
+    -fx-transition: 3s;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border: none;
+    -fx-cursor: pointer;
+}
+.button:hover{
+    -fx-background-color:  #E26A2C;
+}
+#refresh-icon {
+    -fx-fill: white;
+    -fx-font-size: 70;
+    -fx-effect: dropshadow(one-pass-box, rgba(103,111,163,0.8), 4, 0, 0, 0);
+}
+
+.label {
+    -fx-font-family: "Consolas";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 36px;
+    -fx-content-display: center;
+    -fx-effect: dropshadow(one-pass-box, rgba(103,111,163,0.8), 4, 0, 0, 0);
+}
+
+.text-field {
+    -fx-border-radius: 0;
+    -fx-padding: 4px;
+    -fx-background-color: #CDDEFF;
+    -fx-font-weight: bold;
+    -fx-text-fill: lightslategray;
+    -fx-font-family: "Consolas";
+    -fx-font-size: 20px;
+    -fx-transition: 2s;
+}
+.text-field-8 {
+    -fx-background-color: orange;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+
+.text-field-16 {
+    -fx-background-color: #FFAFAF;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+.text-field-32 {
+    -fx-background-color: #8a2be2;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+.text-field-64 {
+    -fx-background-color: brown;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
+
+.text-field-128 {
+    -fx-background-color: #FFD07F;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
+
+.text-field-256 {
+    -fx-background-color: #FDA65D;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
+
+.text-field-512 {
+    -fx-background-color: #FF8243;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
+
+.text-field-1024 {
+    -fx-background-color: #E26A2C;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
+
+.text-field-2048 {
+    -fx-background-color: #FCD900;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
